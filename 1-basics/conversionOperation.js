@@ -28,4 +28,17 @@ let valueInNumber = Number(score)
 let someNumber = 33
 let stringNumber = String(someNumber)
 
-console.log(stringNumber);
+// console.log(stringNumber);
+
+
+
+
+
+//************************OPERATIONS*********************//
+
+
+
+let value = 4
+let negValue = -value
+
+console.log(negValue);
