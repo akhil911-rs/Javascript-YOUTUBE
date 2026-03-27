@@ -16,7 +16,7 @@ const anotherId = Symbol('123')
 // console.log(id === anotherId);
 
 
-const bigNumber= 11432605161511641154515121511515151679954n      // bigInt
+const bigNumber= 1143260516151164115451515151679954n      // bigInt
 
 
 
@@ -39,3 +39,34 @@ const myFunction = function() {    // function
 
 
 console.log(typeof heros);
+
+
+
+//  stack memory (primitive datatypes);   
+
+// heap memory (non - primitive);
+
+
+
+let myYoutubename = "Akhiljackson"
+
+anothername = "GOBLIN"
+
+console.log(anothername);
+console.log(myYoutubename);
+
+
+
+
+let userOne = {
+    email: "abc@gmail.com",
+    upi: "user@ybl"
+}
+
+
+let userTwo = userOne
+
+userTwo.email = "blackrock@gmail.com"
+
+console.log(userOne.email);
+console.log(userTwo.email);
